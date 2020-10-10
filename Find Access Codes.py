@@ -1,3 +1,4 @@
+#Level 3 Exercise 3: Find all lucky tuples (x,y,z) in a list where x divides y and y divides z.
 def solution(l):
 	tested = set()
 	result = {}
