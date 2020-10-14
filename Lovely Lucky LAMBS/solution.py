@@ -12,7 +12,7 @@ def power2(n):
 
 
 def fibonacci(n):
-    if n == 0: return [42]		# if n is 0, it has to return a list of 1 element 
+    if n == 0: return [42]		# If n is 0, it has to return a list of 1 element.
     l = [1, 1]
     i = 1
     while sum(l) <= n:
