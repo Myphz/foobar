@@ -1,14 +1,14 @@
 def solution(n):
-	return len(fibonacci(n)) - len(power2(n))
+    return len(fibonacci(n)) - len(power2(n))
 
 
 def power2(n):
-	l = []
-	x = 0
-	while sum(l) <= n:
-		l.append(2 ** x)
-		x += 1
-	return l
+    l = []
+    x = 0
+    while sum(l) <= n:
+        l.append(2 ** x)
+	x += 1
+    return l
 
 
 def fibonacci(n):
